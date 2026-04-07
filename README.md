@@ -1,14 +1,21 @@
-# Print Check AI
+# 🚀 Print Check AI
+
+<p align="center">
+	<img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-enabled-6ee7b7" />
+	<img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green" />
+	<img alt="PHP" src="https://img.shields.io/badge/php-%3E%3D8.0-8892BF" />
+	<img alt="Queue" src="https://img.shields.io/badge/queue-database%7Credis-orange" />
+</p>
 
 Aplicación para analizar archivos de impresión y detectar problemas o características relevantes mediante procesamiento automatizado y asistencia de modelos (OpenAI).
 
-## Documentación del repositorio
+## 📚 Documentación del repositorio
 
 - **Guía de desarrollo:** [docs/development.md](docs/development.md)
 - **Arquitectura y componentes:** [docs/architecture.md](docs/architecture.md)
 - **API y rutas principales:** [docs/api.md](docs/api.md)
 
-## Inicio rápido (desarrollo)
+## ⚡ Inicio rápido (desarrollo)
 
 En Windows (desde la raíz del proyecto):
 
@@ -34,7 +41,7 @@ php artisan queue:work --sleep=3 --tries=3
 php artisan test
 ```
 
-## Variables de entorno importantes
+## 🔑 Variables de entorno importantes
 
 - `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
 - `OPENAI_API_KEY`
